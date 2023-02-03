@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/chatbot/chatbot.css">
+    <title>ZooLand</title>
+</head>
+<body>
+    <div class="chatbot__btn">
+        <div class="chatbot__tooltip d-none">Есть вопрос?</div>
+      </div>
+    <div id="cookie_note">
+        <p>Мы используем файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте, вы соглашаетесь с условиями
+            использования файлов cookies. Чтобы ознакомиться с нашими Положениями о конфиденциальности и об использовании
+            файлов cookie, <a href="#" target="_blank">нажмите здесь</a>.</p>
+        <button class="button cookie_accept btn btn-primary btn-sm">Я согласен</button>
+    </div>
+    <div class="container">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-md-2 col-lg-2">
+                        <img src="image/logo.jpg" class="logo">
+                    </div>
+                    <div class="col-md-2 col-lg-2"></div>
+                    
+                        <div class="col-md-2 col-lg=2">
+                            <a href="#about" class="black">О нас</a>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <a href="#animals" class="black">Животные</a>
+                        </div>
+                        <div class="col-md-2 col-lg-3">
+                            <a href="#order" class="black">Заказ</a>
+                        </div>
+                    
+                    
+                </div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>  <ul class="menu__box">
+                      <li><a class="menu__item black" href="#about">О нас</a></li>
+                      <li><a class="menu__item black" href="#animals">Животные</a></li>
+                      <li><a class="menu__item black" href="#order">Заказы</a></li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        <div class="container">
+            <main>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 line">
+                            <p id="about">Мы - учреждение, в котором животные размещаются в вольерах, за ними ухаживают, выставляют на всеобщее обозрение, а в некоторых случаях разводят в целях сохранения. У нас вы можете не только посмотреть на животных, а также и заказать их в ресторане.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <img src="image/silhouette-of-a-monkey.jpg" class="monkey"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md align-self-center">
+                            <h1 class="what">Почему наш зоопарк самый лучший</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1 align-self-center">
+                            <img src="image/check-lg.svg" class="ok">
+                        </div>
+                        <div class="col-md-11 col-sm-11">
+                            <p>У животных пятиразовое питание</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1 align-self-center">
+                            <img src="image/check-lg.svg" class="ok">
+                        </div>
+                        <div class="col-md-11 col-sm-11">
+                            <p>У нас вы можете потрогать зверей руками</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1 align-self-center">
+                            <img src="image/check-lg.svg" class="ok">
+                        </div>
+                        <div class="col-md-11 col-sm-11">
+                            <p>Ресторан с шеф-поваром из Вьетнама</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md align-self-center">
+                            <h1 class="what" id="animals">Наши животные</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4"><img src="image/2макак_магот.jpg" class="animal"></div>
+                        <div class="col-md-4 col-sm-4"><img src="image/DSC_7065_1.jpg" class="animal"></div>
+                        <div class="col-md-4 col-sm-4"><img src="image/amurskiitigr-obl.jpg" class="animal"></div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-sm-4 align-self-center"><p>Магот</p></div>
+                        <div class="col-md-4 col-sm-4 align-self-center"><p>Рысь</p></div>
+                        <div class="col-md-4 col-sm-4 align-items-center"><p>Амурский тигр</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4"><img src="image/Drop_fúzatý_Otis_tarda_2416576086.jpg" class="animal"></div>
+                        <div class="col-md-4 col-sm-4"><img src="image/каролинка.jpg" class="animal"></div>
+                        <div class="col-md-4 col-sm-4"><img src="image/1966.jpg" class="animal"></div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-sm-4 align-self-center"><p>Дрофа</p></div>
+                        <div class="col-md-4 col-sm-4 align-self-center"><p>Каролинка</p></div>
+                        <div class="col-md-4 col-sm-4 align-items-center"><p>Игуана</p></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-11 col-sm-11 line"><p>У нас вы можете встретить всех вышеперечисленных животных и еще много других</p></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md col-sm align-self-center">
+                            <h1 class="what">Ресторан "Кошкин хвост"</h1>
+                        </div>
+                    </div>
+                    <div class="row line">
+                        <div class="col-md-7 col-sm-7 cn">
+                            <img src="image/06a1287df520576a74f95ca497d1d143.png" class="rest">
+                        </div>
+                        <div class="col-md-5">
+                            <p>В ресторане вы можете не только заказать блюда, которые вам понравились, но и взять себе компаньона</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row line">
+                        <div class="col-md-5">
+                            <p>Например, котика, который будет лежать рядом с вами и можете погладить его в любое время</p>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="image/cat.jpg" class="cat">
+                        </div>
+                    </div>
+                </div>
+                <div class="container banner">
+                    <p>Еще больше животных!</p>
+                    <div class="itc-slider" data-slider="itc-slider" data-loop="false" data-autoplay="false">
+                        <div class="itc-slider__wrapper">
+                          <div class="itc-slider__items">
+                            <div class="itc-slider__item">
+                              <!-- Контент 1 слайда -->
+                              <img src="image/index.jpg" class="bannerimg">
+                            </div>
+                            <div class="itc-slider__item">
+                              <!-- Контент 2 слайда -->
+                              <img src="image/Banner--Animal-Services.jpg" class="bannerimg">
+                              465
+                            </div>
+                            <div class="itc-slider__item">
+                              <!-- Контент 3 слайда -->
+                              <img src="image/tree-kangaroo-banner.jpg" class="bannerimg">
+                              654
+                            </div>
+                            <div class="itc-slider__item">
+                              <!-- Контент 4 слайда -->
+                              <img src="image/dolph.jpg" class="bannerimg">
+                            </div>
+                            <div class="itc-slider__item">
+                                <img src="image/closeup-zebra-horizontal-banner-susan-schmitz.jpg" class="bannerimg">
+                              <!-- Контент 5 слайда -->
+                              123
+                            </div>
+                          </div>
+                        </div>
+                        <button class="itc-slider__btn itc-slider__btn_prev"></button>
+                        <button class="itc-slider__btn itc-slider__btn_next"></button>
+                      </div>
+                </div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-10 square">
+                            <div class="row align-items-center">
+                                <div class="col-md align-self-center">
+                                    <p class="what" id="order">Сделать заказ</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <p>Блюда</p>
+                                </div>
+                                <div class="col-md-7">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <p>Телефон</p>
+                                </div>
+                                <div class="col-md-7">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <p>Время</p>
+                                </div>
+                                <div class="col-md-7">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-6 offset-md-3 align-self-center">
+                                    <input type="button" value='Заказать' class="order">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </main>
+        </div>
+        </div>
+            <footer>
+                <div class="container-fluid" style="background-color: #D9D9D9;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md col-sm-6">
+                                <p>г.Пермь<br>ул.Луначарского 24</p>
+                            </div>
+                            <div class="col-md col-sm-6">
+                                <p class="phone">+7 (999) 999-99-99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </footer>
+        
+</body>
+
+<script src="script/cookie.js"></script>
+<script src="/chatbot/fp2.js"></script>
+<script src="/chatbot/chatbot.js"></script>
+<script src="script.js"></script>
+
+</html>
